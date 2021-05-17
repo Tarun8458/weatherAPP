@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("https://images.unsplash.com/photo-1495301656558-0b4e988a7447?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 940px;
+    background-position: top-center;
+}
+
+.input {
+    text-align: center;
+}
+
+main:hover {
+    border: 3px solid gray;
+    width: 50vw;
+    margin: 10px auto;
+    height: 50vh;
+    cursor: pointer;
+    /* align-content: center;
+    background-image: url("dhttps://149366088.v2.pressablecdn.com/wp-content/uploads/2016/05/weather-wallpaper.jpg");
+    background-size: cover;
+    opacity: 1; */
+}
+
+div input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px 0px;
+    border-bottom: 3px solid #DF8E00;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+
+div input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+input {
+    margin: 20px;
+    height: 50px;
+    padding: 10px;
+    width: 600px;
+    background: #e7e7e7;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 16px 0px;
+    border-bottom: 3px solid #df8e00;
+}
+
+.current {
+    text-align: center;
+}
+
+.city {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.current .temp {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 1.7px 6px rgba(0, 0, 0, 0.6)
+}
+
+.current .weather {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 2.2px rgba(0, 0, 0, 0.4);
+}
